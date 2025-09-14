@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shapes">
+      <UniqueIdentifier>{01fac501-b2f5-477b-8b05-c698446b50e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{9a74e211-4ebb-441f-bc82-edb5270e6f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Main files">
+      <UniqueIdentifier>{90b7e13f-f531-43e9-b953-a871c34040ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main files">
+      <UniqueIdentifier>{e56ad2b9-f37d-4ce6-97fd-57aab57a6188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{f9b8e997-6105-4a39-ac0c-f1444f9f304e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{846c6b30-8d3e-46c6-8838-32f23a10a1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{a2acd056-cf65-407f-96de-74cef1c37722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{17e6c72a-b437-4e0f-87ec-060fd8a7ccff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Undo-redo manager">
+      <UniqueIdentifier>{2badb7eb-6be7-44a2-8b3c-ba57578d7356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Undo-redo manager">
+      <UniqueIdentifier>{e2aa1d1a-99f2-469b-8783-490958a46350}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Lab3.cpp">
+      <Filter>Source Files\Main files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminalWindow.cpp">
+      <Filter>Source Files\Main files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Main files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Agglomerate.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseEvent.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Form1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Extentions.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoManager.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CreationCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeColorCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowHideCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AgglomerateAssembleCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AgglomerateDisassembleCommand.cpp">
+      <Filter>Source Files\Undo-redo manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Main files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerminalWindow.h">
+      <Filter>Header Files\Main files</Filter>
+    </ClInclude>
+    <ClInclude Include="Agglomerate.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEvent.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Form1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Header Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoManager.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CreationCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeColorCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowHideCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AgglomerateAssembleCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AgglomerateDisassembleCommand.h">
+      <Filter>Header Files\Undo-redo manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="List.tpp">
+      <Filter>Source Files\Helpers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
